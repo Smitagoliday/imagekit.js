@@ -1,2 +1,2 @@
 # imagekit.js
-ImageKit jQuery SDK
+ImageKit jQuery plugin
