@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://docs.imagekit.io/",
   "authors": [
-    "Manu Chaudhary <manu_talkin@yahoo.com>"
+    "imagekit-developer"
   ],
   "main": "imagekit.js",
   "description": "ImageKit jQuery plugin",
