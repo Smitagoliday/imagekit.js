@@ -5,7 +5,7 @@
   "authors": [
     "Manu Chaudhary <manu_talkin@yahoo.com>"
   ],
-  "main": "dist/imagekit.js",
+  "main": "imagekit.js",
   "description": "ImageKit jQuery plugin",
   "keywords": [
     "imagekit",
