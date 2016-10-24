@@ -1,0 +1,37 @@
+{
+  "name": "imagekit",
+  "version": "1.0.0",
+  "homepage": "https://docs.imagekit.io/",
+  "authors": [
+    "Manu Chaudhary <manu_talkin@yahoo.com>"
+  ],
+  "main": "dist/imagekit.js",
+  "description": "ImageKit jQuery plugin",
+  "keywords": [
+    "imagekit",
+    "jquery",
+    "thumbnail",
+    "thumbnails",
+    "image",
+    "transformations",
+    "manipulation",
+    "optimization",
+    "optimisation",
+    "CDN"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imagekit-developer/imagekit.js.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.6"
+  }
+}
