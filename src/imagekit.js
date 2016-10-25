@@ -17,7 +17,7 @@
       var finalOptions = $.extend({},getDefaults(), options, elementOptions);
       if(validateOptions(finalOptions)) {
         var src = getImageUrl(finalOptions);
-        elm.attr(finalOptions["data-srcattribute"], src);
+        elm.attr(finalOptions["data-src-attribute"], src);
       }
     });
   };
@@ -31,7 +31,7 @@
     }
 
     if(!options["data-imagekitid"] && !options["data-host"]) {
-      error = "You must specify either imagekit Id or host";
+      error = "You must specify either imagekitid or host";
       throw(new Error(error));
       return false;
     }
@@ -55,11 +55,11 @@
     config : {
       "url-pattern" : "img",
       "imagekitid" : "",
-      "usesubdomain" : "false", // as string because from DOM we get in string anyway
-      "usesecure" : "true",
+      "use-subdomain" : "false", // as string because from DOM we get in string anyway
+      "use-secure" : "true",
       "host" : "",
-      "srcattribute" : "src",
-      "srcsetattribute" : "srcset"
+      "src-attribute" : "src",
+      "srcset-attribute" : "srcset"
     }
   };
 
@@ -165,13 +165,13 @@
       return options["data-host"];
     }
 
-    if(options["data-usesecure"] === "true") {
+    if(options["data-use-secure"] === "true") {
       baseUrl = "https://";
     } else {
       baseUrl = "http://";
     }
 
-    if(options["data-usesubdomain"] === "true") {
+    if(options["data-use-subdomain"] === "true") {
       baseUrl += options["data-imagekitid"] + ".imagekit.io/" + options["data-url-pattern"];
     } else {
       baseUrl +=  "ik.imagekit.io/" + options["data-imagekitid"] + "/" + options["data-url-pattern"];
