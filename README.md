@@ -1,6 +1,6 @@
 ![imagekit logo](https://imagekit.io/static/img/logo-dark.png)
 
-* [Overview / Resources](#overview-and-resources)
+* [Overview / Requirement](#overview-and-resources)
 * [Installation](#installation)
 * [Usage](#usage)
   * [`$(elm).imagekit()`](#using-jquery)
@@ -9,7 +9,7 @@
 
 
 <a name="overview-and-resources"></a>
-## Overview / Resources
+## Overview / Requirement
 
 ImageKit provides ready-to-use image delivery servers along with dedicated image storage, on-the-fly image transformation like resize, crop, rotate directly from the URL and image uploads.
 
