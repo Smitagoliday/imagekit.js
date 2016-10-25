@@ -77,7 +77,7 @@ This will generate HTML something like the following:
 You can override `imagekitid` by specifying in the attribute itself like
 
 ``` html
-<img src="https://ik.imagekit.io/override-demo/img/tr:w-500/static/img/landingpage-icons/outofbox.png">
+<img data-imagekitid="override-demo" src="https://ik.imagekit.io/override-demo/img/tr:w-500/static/img/landingpage-icons/outofbox.png">
 ```
 
 
