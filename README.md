@@ -23,7 +23,7 @@ If you haven't already registered then first [create an account](https://imageki
 There are two ways to install imagekit.js depending on your project.
 
 1. **Bower**: `bower install --save imagekit`
-2. **Manual**: [Download the latest release of imagekit.js](https://github.com/imagekit-developer/imagekit.js/releases/latest), and use `dist/imagekit.min.js`.
+2. **Manual**: [Download imagekit.js](https://github.com/imagekit-developer/imagekit.js), and use `dist/imagekit.min.js`.
 
 imagekit.js has a following global options:
 
