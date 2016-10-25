@@ -56,7 +56,7 @@ Now that everything's installed and set up, you can start using ImageKit on your
 <a name="using-jquery"></a>
 ### `$(elm).imagekit()`
 
-The simplest way to use imgix.js is to create an `img` tag with the `data-path` attribute:
+The simplest way to use imagekit.js is to create an `img` tag with the `data-path` attribute:
 
 ``` html
 <img data-path="static/img/landingpage-icons/outofbox.png" data-width="500">
