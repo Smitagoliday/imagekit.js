@@ -123,3 +123,14 @@ Valid options:
 * `overlay-x`
 * `overlay-y`
 * `overlay-focus`
+* `transformation` : Array of transformation to apply [chained transformation](https://docs.imagekit.io/#chained-transformations)
+``` html
+<script>
+    window.imagekit.config.imagekitid = "demo";
+    var url = window.imagekit.url({
+        path : "static/img/landingpage-icons/outofbox.png",
+        transformation : [{width: 100, height: 300}, {blur:100}]
+    });
+    console.log(url); // https://ik.imagekit.io/demo/img/tr:w-100,h-300:bl-100/static/img/landingpage-icons/outofbox.png
+</script>
+```
